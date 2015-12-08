@@ -14,6 +14,7 @@
 		540A669F1C169D16008F7426 /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A669C1C169D16008F7426 /* VideoDetailViewController.m */; };
 		540A66A01C169D16008F7426 /* VideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A669E1C169D16008F7426 /* VideoTableViewController.m */; };
 		540A66A91C16A219008F7426 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 540A66A81C16A219008F7426 /* videos.json */; };
+		540A66AB1C16A442008F7426 /* screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 540A66AA1C16A442008F7426 /* screenshot01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		540A669E1C169D16008F7426 /* VideoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewController.m; sourceTree = "<group>"; };
 		540A66A11C169D34008F7426 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		540A66A81C16A219008F7426 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		540A66AA1C16A442008F7426 /* screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				540A66951C169CDA008F7426 /* Info.plist */,
 				540A66881C169CDA008F7426 /* main.m */,
 				540A66A81C16A219008F7426 /* videos.json */,
+				540A66AA1C16A442008F7426 /* screenshot01.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				540A66941C169CDA008F7426 /* Assets.xcassets in Resources */,
 				540A66921C169CDA008F7426 /* Main.storyboard in Resources */,
+				540A66AB1C16A442008F7426 /* screenshot01.png in Resources */,
 				540A66A91C16A219008F7426 /* videos.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
