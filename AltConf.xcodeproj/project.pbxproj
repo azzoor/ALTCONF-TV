@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		540A66891C169CDA008F7426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A66881C169CDA008F7426 /* main.m */; };
 		540A668C1C169CDA008F7426 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A668B1C169CDA008F7426 /* AppDelegate.m */; };
-		540A668F1C169CDA008F7426 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A668E1C169CDA008F7426 /* ViewController.m */; };
 		540A66921C169CDA008F7426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540A66901C169CDA008F7426 /* Main.storyboard */; };
 		540A66941C169CDA008F7426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540A66931C169CDA008F7426 /* Assets.xcassets */; };
+		540A669F1C169D16008F7426 /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A669C1C169D16008F7426 /* VideoDetailViewController.m */; };
+		540A66A01C169D16008F7426 /* VideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540A669E1C169D16008F7426 /* VideoTableViewController.m */; };
+		540A66A91C16A219008F7426 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 540A66A81C16A219008F7426 /* videos.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,11 +21,15 @@
 		540A66881C169CDA008F7426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		540A668A1C169CDA008F7426 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		540A668B1C169CDA008F7426 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		540A668D1C169CDA008F7426 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		540A668E1C169CDA008F7426 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		540A66911C169CDA008F7426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		540A66931C169CDA008F7426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		540A66951C169CDA008F7426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540A669B1C169D16008F7426 /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailViewController.h; sourceTree = "<group>"; };
+		540A669C1C169D16008F7426 /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
+		540A669D1C169D16008F7426 /* VideoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewController.h; sourceTree = "<group>"; };
+		540A669E1C169D16008F7426 /* VideoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewController.m; sourceTree = "<group>"; };
+		540A66A11C169D34008F7426 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		540A66A81C16A219008F7426 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,10 @@
 			children = (
 				540A668A1C169CDA008F7426 /* AppDelegate.h */,
 				540A668B1C169CDA008F7426 /* AppDelegate.m */,
-				540A668D1C169CDA008F7426 /* ViewController.h */,
-				540A668E1C169CDA008F7426 /* ViewController.m */,
-				540A66901C169CDA008F7426 /* Main.storyboard */,
-				540A66931C169CDA008F7426 /* Assets.xcassets */,
-				540A66951C169CDA008F7426 /* Info.plist */,
+				540A669D1C169D16008F7426 /* VideoTableViewController.h */,
+				540A669E1C169D16008F7426 /* VideoTableViewController.m */,
+				540A669B1C169D16008F7426 /* VideoDetailViewController.h */,
+				540A669C1C169D16008F7426 /* VideoDetailViewController.m */,
 				540A66871C169CDA008F7426 /* Supporting Files */,
 			);
 			path = AltConf;
@@ -71,7 +76,12 @@
 		540A66871C169CDA008F7426 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				540A66A11C169D34008F7426 /* Header.h */,
+				540A66901C169CDA008F7426 /* Main.storyboard */,
+				540A66931C169CDA008F7426 /* Assets.xcassets */,
+				540A66951C169CDA008F7426 /* Info.plist */,
 				540A66881C169CDA008F7426 /* main.m */,
+				540A66A81C16A219008F7426 /* videos.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -135,6 +145,7 @@
 			files = (
 				540A66941C169CDA008F7426 /* Assets.xcassets in Resources */,
 				540A66921C169CDA008F7426 /* Main.storyboard in Resources */,
+				540A66A91C16A219008F7426 /* videos.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,9 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				540A668F1C169CDA008F7426 /* ViewController.m in Sources */,
+				540A669F1C169D16008F7426 /* VideoDetailViewController.m in Sources */,
 				540A668C1C169CDA008F7426 /* AppDelegate.m in Sources */,
 				540A66891C169CDA008F7426 /* main.m in Sources */,
+				540A66A01C169D16008F7426 /* VideoTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
